@@ -1,9 +1,10 @@
 {
-    "include": [
-        "./src/**/*",
-    ],
-    "compilerOptions": {
-        "rootDir": "src",
-        "outDir": "./lib",
-    }
+  "include": [
+    "./src/**/*",
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./lib",
+    "skipLibCheck": true,
+  }
 }
